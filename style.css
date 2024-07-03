@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:url("https://img.freepik.com/free-vector/hand-drawn-school-supplies-pattern-background_23-2150855728.jpg?w=996&t=st=1720002599~exp=1720003199~hmac=a1449753508445cd32741979220235587528c134cd495e2b7d37ec44ea0a5dfe");
+    background-size: cover;
+}
+.wide-form {
+    width: 80%; /* Adjust the percentage as needed */
+    max-width: 600px; /* Optionally set a max width */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Optional: Add some padding for better appearance */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 10px; /* Optional: Round the corners */
+    background-color: #f9f9f9; /* Optional: Set a background color */
+}
+
+
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+   
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+     width:250px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
